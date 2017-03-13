@@ -5,7 +5,7 @@
   "helpers": {
     "Nightmare": {
       "url": "https://www.photoshelter.com/",
-      "show": true
+      "show": false
     }
   },
   "include": {
