@@ -10,7 +10,7 @@ module.exports = {
   },
 
   // insert your locators and methods here
-  username: 'williamtsao1202@gmail.com',
+  username: 'wyt215@nyu.edu',
   password: 'foobar',
   submit: 'sign in',
   signin(){

@@ -9,13 +9,14 @@ module.exports = {
     I = actor();
   },
 
-  // insert your locators and methods here
+  uploadButton: '//*[@id="navbar"]/ul[1]/li[3]',
   galleryNameInput: '//*[@id="Dialog_ClcGal_Create"]/form/fieldset[1]/input',
   newGallery(){
-  	I.wait(5);
-  	I.click('//*[@id="navbar"]/ul[1]/li[3]');
+    
+  	I.wait(15);
+  	I.click(this.uploadButton);
   	I.click('to New Gallery');
-  	I.wait(5);
+  	I.wait(10);
   	I.fillField(this.galleryNameInput, new Date().toLocaleDateString());
   	I.pressKey('Enter');
   }

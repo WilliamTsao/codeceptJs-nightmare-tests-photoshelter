@@ -21,11 +21,11 @@ module.exports = {
 		I.fillField('U_LAST_NAME', this.lname);
 		I.fillField('U_EMAIL', this.username);
 		I.fillField('U_PASSWORD', this.password);
-		I.wait(5);
+		I.wait(2);
 		I.click('.next');
 		I.selectOption('ULD_REASON', this.reason);
-		I.wait(5);
+		I.wait(2);
 		I.click('#button_submit');
-		I.wait(5);
+		I.wait(10);
 	}
 }
